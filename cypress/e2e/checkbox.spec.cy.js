@@ -3,8 +3,9 @@
 it('deve marcar os top 5 filmes da marvel', function () {
     cy.visit('/checkboxes')
 
+    //Eu passei um valor errado de proposito, para ver se ia continuar percorrendo o forEach e me mostrar o item com erro no final
     const movies = [
-        'avengers',
+        'avengers9',
         'cap2',
         'guardians',
         'antman',
